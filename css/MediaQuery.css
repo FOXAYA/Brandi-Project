@@ -1,0 +1,144 @@
+@media (max-width: 576px),
+(max-width: 768px) {
+  .navbar-light .navbar-toggler {
+    background-color: aliceblue;
+    padding: 0;
+    border: none;
+  }
+
+  .navbar-nav {
+    margin-top: 10px;
+  }
+
+  .owl-theme .owl-dots {
+    position: absolute;
+    left: 91%;
+    top: 50%;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+  }
+
+  .owl-theme .owl-dots .owl-dot.active span {
+    margin-top: 0;
+  }
+
+  .item .row {
+    margin-bottom: 30%;
+  }
+
+  .item h1 {
+    font-size: 30px;
+    font-weight: 300;
+  }
+
+  .item h1 span {
+    font-weight: 900;
+  }
+
+  .item h3 {
+    font-size: 29px;
+    font-weight: 200;
+    margin: 6px 0 20px;
+  }
+
+  .item p {
+    font-size: 15px;
+  }
+
+  .featuerd {
+    height: 210vh;
+  }
+
+  .team {
+    height: 300vh;
+  }
+
+  .features .card {
+    margin-right: 10px;
+    margin-left: 18%;
+  }
+
+  .work {
+    height: 500vh;
+  }
+
+  .team {
+    margin-top: 10px;
+  }
+
+  .img-responsive,
+  .overlay {
+    margin-left: 25%;
+  }
+
+  .counter,
+  .counter-overlay {
+    margin-top: 80px;
+    height: 230vh;
+  }
+
+  #contact {
+    height: 165vh;
+  }
+
+  .contact-form h3 {
+    font-size: 19px;
+  }
+
+  .input-group #form-submit {
+    font-size: 14px;
+  }
+
+  .input-field #email {
+    margin-left: 0;
+  }
+
+  .footer-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  /**************foooter****************/
+}
+
+@media (min-width : 576px) {
+  .owl-theme .owl-dots {
+    position: absolute;
+    left: 91%;
+    top: 50%;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+  }
+}
+
+@media (max-width: 768px),
+(max-width: 800px) {
+  .team {
+    height: 170vh;
+  }
+
+  .img-responsive,
+  .overlay {
+    margin-left: 0;
+  }
+
+  .features .card {
+    margin-right: 10px;
+    margin-left: 18%;
+  }
+
+  .work {
+    height: 190vh;
+  }
+
+  .team {
+    margin-top: 10px;
+  }
+}
